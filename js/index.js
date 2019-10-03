@@ -61,9 +61,10 @@ ctaStylzButton.textContent = siteContent["cta"]["button"];
 //  Top Content
 const mainFeaturesH4 = document.querySelector(".top-content .text-content");
 mainFeaturesH4.className = "Features";
-const navText = document.querySelector(".Features h4");
 
+const navText = document.querySelector(".Features h4");
 navText.textContent = siteContent["main-content"]["features-h4"];
+
 const navContent = document.querySelector(".Features p");
 navContent.textContent = siteContent["main-content"]["features-content"];
 
@@ -75,7 +76,7 @@ navText2.textContent = siteContent["main-content"]["about-h4"];
 const navContent2 = document.querySelector(".About p");
 navContent2.textContent = siteContent["main-content"]["about-content"];
 
-const topContent = document.querySelector(".top-content");
+// const topContent = document.querySelector(".top-content");
 // ^^^ TEST ^^^
 
 // Middle Image
@@ -85,10 +86,28 @@ middleImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
 //  Bottom Content
 const servicesContent = document.querySelector(".bottom-content .text-content");
 servicesContent.className = "Services";
+
+const servicesText = document.querySelector(".Services h4");
+servicesText.textContent = siteContent["main-content"]["services-h4"];
+const servicesContent2 = document.querySelector(".Services p");
+servicesContent2.textContent = siteContent["main-content"]["services-content"];
+
+
 const productContent = document.querySelector(".bottom-content .text-content");
 productContent.className = "Product";
+
+const productText = document.querySelector(".Product h4");
+productText.textContent = siteContent["main-content"]["product-h4"];
+const productContent2 = document.querySelector(".Product p");
+productContent2.textContent = siteContent["main-content"]["product-content"];
+
 const visionContent = document.querySelector(".bottom-content .text-content");
 visionContent.className = "Vision";
+
+const visionText = document.querySelector(".Vision h4");
+visionText.textContent = siteContent["main-content"]["vision-h4"];
+const visionContent2 = document.querySelector(".Vision p");
+visionContent2.textContent = siteContent["main-content"]["vision-content"];
 
 // const bottomContent = document.querySelector('.bottom-content');
 // ^^^ TEST ^^^
