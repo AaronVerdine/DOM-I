@@ -49,7 +49,10 @@ const navBar = document.querySelectorAll('a');
 //  CTA Section Styling
 const ctaStylz = document.querySelector('.cta-text h1');
 const ctaStylzButton = document.querySelector('.cta-text button');
-const ctaStylzImg = document.getElementById('#cta-img');
+const ctaStylzImg = document.getElementById('cta-img');
+ctaStylzImg.setAttribute('src', siteContent["cta"]["img-src"])
+
+
 
 
 
@@ -64,6 +67,8 @@ aboutContent.className = 'About';
 
 // Middle Image
 const middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
 
 
 
