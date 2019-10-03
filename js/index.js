@@ -40,3 +40,56 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+// Nav Styles and Headings
+const navBar = document.querySelectorAll('a');
+
+
+
+//  CTA Section Styling
+const ctaStylz = document.querySelector('.cta-text h1');
+const ctaStylzButton = document.querySelector('.cta-text button');
+const ctaStylzImg = document.getElementById('#cta-img');
+
+
+
+//  Top Content
+const mainFeaturesH4 = document.querySelector('.top-content .text-content');
+mainFeaturesH4.className = 'Features';
+const aboutContent = document.querySelector('.top-content .text-content');
+aboutContent.className = 'About';
+// const topContent = document.querySelector('.top-content');
+// ^^^ TEST ^^^
+
+
+// Middle Image
+const middleImg = document.getElementById('middle-img');
+
+
+
+//  Bottom Content
+const servicesContent = document.querySelector('.bottom-content .text-content');
+servicesContent.className = 'Services';
+const productContent = document.querySelector('.bottom-content .text-content');
+productContent.className = 'Product';
+const visionContent = document.querySelector('.bottom-content .text-content');
+visionContent.className = 'Vision';
+
+// const bottomContent = document.querySelector('.bottom-content'); 
+// ^^^ TEST ^^^
+
+
+// Contact
+const contactSection = document.querySelector('.contact');
+
+
+//  Footer
+const footerSection = document.querySelector('footer p');
+
+
+
+
+
+
+
+
