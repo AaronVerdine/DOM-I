@@ -53,7 +53,7 @@ const navBar = document.querySelectorAll("a");
 for (let i = 0; i < links.length; i++) {
   navBar[i].textContent = links[i];
 
-  console.log(navBar[i]);
+  // console.log(navBar[i]);
 }
 
 //  CTA Section Styling
@@ -121,11 +121,15 @@ visionContent2.textContent = siteContent["main-content"]["vision-content"];
 const contactHeader = document.querySelector(".contact h4");
 contactHeader.textContent = siteContent["contact"]["contact-h4"];
 
-// const contactPs = document.querySelectorAll('.contact p');
+const contactPs = document.querySelectorAll('.contact p');
 
-// contactPs.forEach(contact => {
+const contactInfo = ["123 Way 456 Street Somewhere, USA", "1 (888) 888-8888", "sales@greatidea.io"]
 
-// })
+for (let i = 0; i < contactInfo.length; i++) {
+    contactPs[i].textContent = contactInfo[i]
+
+    // console.log(contactPs[i])
+}
 
 //  Footer
 const footerSection = document.querySelector("footer p");
