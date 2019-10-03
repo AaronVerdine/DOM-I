@@ -113,7 +113,19 @@ visionContent2.textContent = siteContent["main-content"]["vision-content"];
 // ^^^ TEST ^^^
 
 // Contact
-const contactSection = document.querySelector(".contact");
+const contactHeader = document.querySelector(".contact h4");
+contactHeader.textContent = siteContent["contact"]["contact-h4"];
+
+const contactPs = document.querySelectorAll('.contact p');
+contactPs.forEach(contact => {
+
+})
+
+
+
+
+
+
 
 //  Footer
 const footerSection = document.querySelector("footer p");
