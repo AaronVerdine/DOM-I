@@ -50,6 +50,12 @@ logo.setAttribute("src", siteContent["nav"]["img-src"]);
 const links = ["Features", "About", "Services", "Product", "Vision"];
 const navBar = document.querySelectorAll("a");
 
+for (let i = 0; i < links.length; i++) {
+  navBar[i].textContent = links[i];
+
+  console.log(navBar[i]);
+}
+
 //  CTA Section Styling
 const ctaStylz = document.querySelector(".cta-text h1");
 const ctaStylzButton = document.querySelector(".cta-text button");
@@ -92,7 +98,6 @@ servicesText.textContent = siteContent["main-content"]["services-h4"];
 const servicesContent2 = document.querySelector(".Services p");
 servicesContent2.textContent = siteContent["main-content"]["services-content"];
 
-
 const productContent = document.querySelector(".bottom-content .text-content");
 productContent.className = "Product";
 
@@ -116,16 +121,11 @@ visionContent2.textContent = siteContent["main-content"]["vision-content"];
 const contactHeader = document.querySelector(".contact h4");
 contactHeader.textContent = siteContent["contact"]["contact-h4"];
 
-const contactPs = document.querySelectorAll('.contact p');
-contactPs.forEach(contact => {
+// const contactPs = document.querySelectorAll('.contact p');
 
-})
+// contactPs.forEach(contact => {
 
-
-
-
-
-
+// })
 
 //  Footer
 const footerSection = document.querySelector("footer p");
